@@ -1,0 +1,38 @@
+ul input:hover {
+ cursor: progress;
+ }
+ul:hover {
+ color: plum
+ }
+
+#title {
+  background-color:rgb(125, 84, 163);
+  color: white;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  #header {
+  background-color:rgb(125, 84, 163);
+  color: white;
+  padding: 30px;
+  text-align: left;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  width: 100%
+  } 
+
+#studentname {
+ background-color: white(187, 77, 101, 0.589);
+ color: purple;
+ text-align: center
+ }
+
+#calculate {
+  
+  background-color: rgb(249, 240, 250) 
+}
+
+
+
+
