@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+	<html>
+	  <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width">
+	    <title>Grade Calculater</title>
+	    <ul style="list-style-type:circle;">
+      <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+	</head>
+
+	  <body>
+	    <h1 id="title"> CSE 120 Introduction to the World of Programming </h1>
+	    <div id="classinfo">
+	      <h1> CSE 120 </h1>
+        <div id="studentname">
+	      <h2> Yeva Melikyan </h2>
+      <tr>
+        <div id="header">
+        <td>Assignment -</td> 
+        <td>Percentage</td>
+       </tr> 
+      
+	
+     
+ <ul>
+	       <li>Homework - <span class="percent" id="HomeworkPercent">25</span>%</li>
+	       <li>Quiz 1 - <span class="percent" id="Quiz1Percent">25</span>%</li>
+	       <li>Quiz 2 - <span class="percent" id="Quiz2Percent">30</span>%</li>
+	       <li>Participation - <span class="percent" id="ParticipationPercent">15</span>%</li>
+         <li>Attendance - <span class="percent" id="AttendancePercent">5</span>%</li>
+	     </ul>     
+	      <h4>Calculate My Grade</h4>
+	      <ul style="list-style-type:circle;">
+	        <tr>
+         <li>Homework -</td>
+         <td><input type="text" size= "4"
+         id="HomeworkGrade"  value="" onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Quiz 1 -</td>
+         <td><input type="text" size= "4"
+         id="Quiz1Grade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Quiz 2 -</td>
+         <td><input type="text" size= "4"
+         id="Quiz2Grade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr> 
+         
+         <tr>
+         <li>Participation -</td>
+         <td><input type="text" size= "4"
+         id="ParticipationGrade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+
+         <tr>
+         <li>Attendance -</td>
+         <td><input type="text" size= "4"
+         id="AttendanceGrade"  value="" 
+         onkeyup="checkGrade(event)"></td>
+         </tr>
+         </table>
+       </div>
+  
+ 
+   <div id="calculate">
+   <input type="button" value="Calculate Grade"
+     onclick="GradeCalculator()">
+   <hr>
+   <div id="outputGrade"></div>
+
+   <br>
+    
+   <input type="button" value="Calculate Letter Grade"
+    onclick="LetterGrade()">
+   <hr>
+   <div id="LetterGrade"></div>
+
+
+
+  
+</body>
+</html>
+    
+
+          
